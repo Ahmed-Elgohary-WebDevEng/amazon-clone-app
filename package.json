@@ -1,0 +1,14 @@
+{
+  "name": "amazon-mern-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd amazon-api-backend && npm install && cd ../amazon-ui && npm install && npm run build",
+    "start": "node amazon-api-backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
